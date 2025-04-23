@@ -1,5 +1,3 @@
-Here's a comprehensive GitHub README with all the requested elements:
-
 # MenuMate 🍽️✨  
 **AI-Powered Restaurant Menu Management System**  
 
