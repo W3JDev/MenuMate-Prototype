@@ -26,7 +26,19 @@
 | **Universal Menu** | Real-time translations in 6 Asian languages |  
 | **Smart Filters** | Dynamic dietary/allergen filtering system |  
 | **Glass UI** | Stunning frosted-glass design interface |  
-| **Menu Science** | Built-in analytics for data-driven decisions |  
+| **Dashboard Analytics** | Built-in analytics for data-driven decisions |
+| **Admin Panel** | Built-in web admin panel access for simlest straight forward menu management, Business Profile Management, Ai Integration Config, User Settings, and many more |
+
+Check Out Admin Panel
+
+![image](https://github.com/user-attachments/assets/ad5eb9bb-5766-442a-b591-0bcf98628b46)
+![image](https://github.com/user-attachments/assets/3a1c4b14-d5ac-4d32-a725-c77db17a5093)
+![image](https://github.com/user-attachments/assets/87b0f5b2-c1c9-463c-9a30-214b5890411c)
+![image](https://github.com/user-attachments/assets/093ce8b7-a906-4855-9d92-1b0364785d5d)
+![image](https://github.com/user-attachments/assets/fa971c58-1878-4bfa-aca6-d61ff6cf5bf2)
+![image](https://github.com/user-attachments/assets/925a427c-8878-4ce3-9c99-cf4de66c2dd4)
+![image](https://github.com/user-attachments/assets/074323d1-d46f-4378-abda-194021265159)
+
 
 ## 🛠️ Installation  
 ```bash
