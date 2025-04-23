@@ -1,0 +1,188 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 240 10% 3.9%;
+
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
+
+    --accent: 240 4.8% 95.9%;
+    --accent-foreground: 240 5.9% 10%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+
+    --primary: 221.2 83.2% 53.3%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 240 4.8% 95.9%;
+    --secondary-foreground: 240 5.9% 10%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --ring: 240 5% 64.9%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
+
+    --muted: 240 3.7% 15.9%;
+    --muted-foreground: 240 5% 64.9%;
+
+    --accent: 240 3.7% 15.9%;
+    --accent-foreground: 0 0% 98%;
+
+    --popover: 240 10% 3.9%;
+    --popover-foreground: 0 0% 98%;
+
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+
+    --card: 240 10% 3.9%;
+    --card-foreground: 0 0% 98%;
+
+    --primary: 217.2 91.2% 59.8%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 240 3.7% 15.9%;
+    --secondary-foreground: 0 0% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    --ring: 240 3.7% 15.9%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Improve mobile tap targets */
+  button,
+  a,
+  input,
+  select,
+  textarea {
+    @apply touch-manipulation;
+  }
+
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+}
+
+@layer components {
+  /* iOS-style glass card */
+  .ios-card {
+    @apply bg-white/80 dark:bg-black/80 backdrop-blur-md rounded-ios shadow-ios border border-white/20 dark:border-white/10 transition-all;
+  }
+
+  /* iOS-style button */
+  .ios-button {
+    @apply rounded-full font-medium text-ios-blue dark:text-ios-blue hover:bg-ios-gray-6 dark:hover:bg-ios-gray-1/20 transition-colors;
+  }
+
+  /* iOS-style primary button */
+  .ios-button-primary {
+    @apply rounded-full font-medium bg-ios-blue text-white hover:bg-ios-blue/90 transition-colors;
+  }
+
+  /* iOS-style bottom sheet */
+  .ios-sheet {
+    @apply fixed bottom-0 left-0 right-0 bg-white/90 dark:bg-black/90 backdrop-blur-md border-t border-ios-gray-4/30 dark:border-white/10 rounded-t-xl shadow-ios-lg animate-slide-in z-50;
+  }
+
+  /* iOS-style navigation bar */
+  .ios-nav {
+    @apply fixed bottom-0 left-0 right-0 h-16 bg-white/90 dark:bg-black/90 backdrop-blur-md border-t border-ios-gray-4/30 dark:border-white/10 flex items-center justify-around z-40;
+  }
+
+  /* iOS-style tab button */
+  .ios-tab {
+    @apply flex flex-col items-center justify-center gap-1 text-xs font-medium;
+  }
+
+  /* iOS-style status pill */
+  .ios-status-pill {
+    @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium;
+  }
+
+  /* iOS-style divider */
+  .ios-divider {
+    @apply h-px w-full bg-ios-gray-5 dark:bg-ios-gray-1/20;
+  }
+
+  /* iOS-style list item */
+  .ios-list-item {
+    @apply flex items-center py-3 px-4 border-b border-ios-gray-5 dark:border-ios-gray-1/20 last:border-0;
+  }
+
+  /* Enhanced 3D shadows for iOS cards */
+  .shadow-ios {
+    @apply shadow-[0_2px_8px_rgba(0,0,0,0.12),_0_1px_2px_rgba(0,0,0,0.05)];
+  }
+
+  .shadow-ios-lg {
+    @apply shadow-[0_4px_16px_rgba(0,0,0,0.16),_0_2px_4px_rgba(0,0,0,0.08)];
+  }
+
+  /* Action button for mobile */
+  .ios-action-button {
+    @apply flex flex-col items-center justify-center p-4 rounded-ios bg-white/90 dark:bg-black/90 backdrop-blur-md shadow-ios border border-white/20 dark:border-white/10 transition-all hover:shadow-ios-lg transform hover:-translate-y-1 active:translate-y-0 active:shadow-ios;
+  }
+
+  /* 3D button effect */
+  .button-3d {
+    @apply relative overflow-hidden transition-all duration-200 ease-out;
+    transform-style: preserve-3d;
+    transform: perspective(800px) translateZ(0);
+  }
+
+  .button-3d:hover {
+    transform: perspective(800px) translateY(-4px);
+  }
+
+  .button-3d:active {
+    transform: perspective(800px) translateY(0);
+  }
+
+  .button-3d::before {
+    content: "";
+    @apply absolute inset-0 bg-black/5 dark:bg-white/5 opacity-0 transition-opacity duration-200;
+    transform: translateZ(-1px);
+  }
+
+  .button-3d:hover::before {
+    @apply opacity-100;
+  }
+}
+
