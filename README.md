@@ -1,25 +1,36 @@
-WaiterAI 🍽️✨  
+## WaiterAI 🍽️✨  
 **AI-Powered Restaurant Menu Management System**  
 
-![WaiterAi Banner](https://placehold.co/1200x400/1e1b4b/white?text=WaiterAi\nRevolutionizing%20Restaurant%20Menus%20with%20AI)  
 *"Where culinary art meets artificial intelligence"*
 
 ---
 
+## ![WaiterAI Banner](https://www.gitbook.com/cdn-cgi/image/dpr=2,width=1920,onerror=redirect,format=auto/https%3A%2F%2Ffiles.gitbook.com%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FGUihImAt81eXKAEiQ8Ib%252Fuploads%252FSkw73ozMEt67eHxC4ZlX%252Fwaiter-ai-github-image-2.png%3Falt%3Dmedia%26token%3D4023fd10-afb3-471f-a41a-51a872c36217)
+
+---
+
 ## 🌟 Creative Brief  
-**Problem:** Restaurants face challenges with:  
+
+**Problem:**  
+Restaurants face challenges with:  
 - Static, uninspiring digital menus  
 - Manual and time-consuming translation processes  
 - Inefficient menu updates  
 - Lack of customer engagement  
 
 **Solution:** WaiterAI offers:  
-- 🤖 **AI-Crafted Descriptions** - Automatically generate mouth-watering item descriptions  
-- 🌍 **Multi-Language Support** - Real-time translations in 6 languages  
-- 📱 **Smart Filtering** - Allergen/dietary filters that actually work  
-- 📊 **Live Analytics** - Gain actionable insights on menu performance  
+- 🤖 **AI-Crafted Descriptions** – Automatically generate mouth-watering item descriptions  
+- 🌍 **Multi-Language Support** – Real-time translations in 6 languages  
+- 📱 **Smart Filtering** – Allergen/dietary filters that actually work  
+- 📊 **Live Analytics** – Gain actionable insights on menu performance  
 
-*"We don't just digitize menus - we revolutionize the dining experience with AI."*
+*"We don't just digitize menus – we revolutionize the dining experience with AI."*
+
+---
+
+## 🏆 Benefits of Restaurant Automation
+
+![Benefits of Restaurant Automation](https://www.gitbook.com/cdn-cgi/image/dpr=2,width=1920,onerror=redirect,format=auto/https%3A%2F%2Ffiles.gitbook.com%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FGUihImAt81eXKAEiQ8Ib%252Fuploads%252F1IQJKF1y17YpHHlmFL2x%252Fwaiter-ai-benefits.png%3Falt%3Dmedia%26token%3Dda0b0e7b-3b7a-4621-b59f-942569e73561)
 
 ---
 
@@ -32,9 +43,9 @@ WaiterAI 🍽️✨
 - Restaurants catering to dietary accommodations.
 
 ### **Go-to-Market Approach**
-1. **Initial Launch**: High-end restaurants in urban tourist hubs.
-2. **Partnerships**: Collaborate with restaurant associations and tourism boards.
-3. **Expansion**: Target hotels, resorts, and cruise lines.
+1. **Initial Launch:** High-end restaurants in urban tourist hubs.
+2. **Partnerships:** Collaborate with restaurant associations and tourism boards.
+3. **Expansion:** Target hotels, resorts, and cruise lines.
 
 ### **Growth Levers**
 - Enhanced Analytics: Insights into popular items and viewing trends.
@@ -45,12 +56,12 @@ WaiterAI 🍽️✨
 ---
 
 ## 🚀 Features  
-- **AI WaitAssistant**: Ai-powered menu descriptions that boost sales  
-- **Universal Menu**: Real-time translations in 6 Asian languages  (coming soon)
-- **Smart Filters**: Dynamic dietary/allergen filtering system   (coming soon)
-- **Glass UI**: Stunning frosted-glass interface design  
-- **Dashboard Analytics**: Built-in analytics for data-driven decisions  
-- **Admin Panel**: Manage menus, configure AI, and customize business profiles with ease  
+- **AI WaitAssistant:** AI-powered menu descriptions that boost sales  
+- **Universal Menu:** Real-time translations in 6 Asian languages *(coming soon)*  
+- **Smart Filters:** Dynamic dietary/allergen filtering system *(coming soon)*  
+- **Glass UI:** Stunning frosted-glass interface design  
+- **Dashboard Analytics:** Built-in analytics for data-driven decisions  
+- **Admin Panel:** Manage menus, configure AI, and customize business profiles with ease  
 
 ### Admin Panel Preview  
 Check out our user-friendly admin panel:  
@@ -69,8 +80,8 @@ Check out our user-friendly admin panel:
 ### Steps  
 1. **Clone the repository**  
    ```bash
-   git clone https://github.com/W3JDev/MenuMate-Prototype.git
-   cd MenuMate-Prototype
+   git clone https://github.com/W3JDev/Waiter_Ai.git
+   cd Waiter_Ai
    ```  
 
 2. **Install dependencies**  
@@ -109,7 +120,7 @@ This codebase is **not open source** and is provided for reference only under th
 ---
 
 ## 🤝 Contribution Policy  
-**Contribution by invitation only** - Currently accepting:  
+**Contribution by invitation only** – Currently accepting:  
 - Security researchers (via responsible disclosure)  
 - UI/UX designers for accessibility improvements  
 - Restaurant industry consultants  
@@ -125,7 +136,7 @@ This codebase is **not open source** and is provided for reference only under th
 ## 📈 Project Status  
 ```mermaid
 gantt
-    title WaiterAiDevelopment Roadmap
+    title WaiterAi Development Roadmap
     dateFormat  YYYY-MM-DD
     section Core
     AI Engine           :done,    des1, 2023-01-01, 2023-03-30
@@ -138,9 +149,9 @@ gantt
 ---
 
 ## 💡 Why This Matters  
-*"Digital menus convert 23% better when using dynamic descriptions"* - *Hospitality Tech Report 2023*  
+*"Digital menus convert 23% better when using dynamic descriptions"* – *Hospitality Tech Report 2023*  
 
-WaiterAiisn't just software - it's the future of restaurant management. By combining AI with deep industry knowledge, we're helping culinary businesses:  
+WaiterAI isn't just software – it's the future of restaurant management. By combining AI with deep industry knowledge, we're helping culinary businesses:  
 - Reduce menu update time by 80%  
 - Increase average order value by 15%  
 - Improve customer satisfaction scores  
@@ -148,16 +159,16 @@ WaiterAiisn't just software - it's the future of restaurant management. By combi
 ---
 
 ## ✨ Special Thanks  
-- **W3JDev Team** - Core innovation  
-- **Base44**, **V0Dev**, **Loveable** - Migration architecture  
-- **Early Adopters** - Pilot restaurants  
+- **W3JDev Team** – Core innovation  
+- **Base44**, **V0Dev**, **Loveable** – Migration architecture  
+- **Early Adopters** – Pilot restaurants  
 
 ---
 
 ## 🌟 Built With  
-- **TypeScript** - For scalable and maintainable code  
-- **CSS** - For stunning UI/UX  
-- **JavaScript** - For dynamic functionality  
+- **TypeScript** – For scalable and maintainable code  
+- **CSS** – For stunning UI/UX  
+- **JavaScript** – For dynamic functionality  
 
 ---
 
@@ -166,4 +177,7 @@ For licensing inquiries: **w3j.btc@gmail.com**
 For partnership opportunities: **w3j.btc@gmail.com**  
 
 ![W3JDev Signature](https://placehold.co/200x50/1e1b4b/white?text=W3JDev%20Approved)  
-```
+
+---
+
+Let me know if you want to further tweak the layout or add more visual elements!
